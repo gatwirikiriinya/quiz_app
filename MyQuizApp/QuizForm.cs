@@ -220,7 +220,7 @@ namespace MyQuizApp
                 score += questionWeights[lblQuestion.Text];
             }
 
-            // Delay for 2 seconds to show the color change
+            // Delay for 1 seconds to show the color change
             await Task.Delay(1000);
 
             // Reset button colors

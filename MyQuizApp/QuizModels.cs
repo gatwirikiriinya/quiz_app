@@ -23,6 +23,6 @@ namespace MyQuizApp
         public string Text { get; set; }
         public List<string> Options { get; set; }
         public int CorrectOptionIndex { get; set; }
-        public int Weight { get; set; }
+    
     }
 }
